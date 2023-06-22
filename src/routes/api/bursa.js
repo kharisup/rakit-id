@@ -6,7 +6,6 @@ const headers = {
   'Content-Type': 'application/json'
 }
 
-
 /** @type {import('./bursa').RequestHandler} */
 export async function get({ url: { searchParams } }) {
   const q = searchParams.get('q') ? searchParams.get('q') : undefined  
@@ -15,6 +14,7 @@ export async function get({ url: { searchParams } }) {
   const res = await fetch(URL_PREFIX + '/' + q, {
     headers
   })
+
   if (!res.ok) throw new Error(await res.text())
   // return getResponse(res)
   return res

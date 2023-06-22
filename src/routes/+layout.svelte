@@ -69,10 +69,8 @@
 {#if browser}
     <div
         class="w-full mx-auto z-50 bg-primary dark:bg-slate-900 px-10 py-2
-        {yScreen > 0 && scrollActive
-            ? ' transition-all duration-150 drop-shadow-lg pt-1 sticky top-0'
-            : ''} 
-        {yScreen <= 150 && scrollActive ? ' drop-shadow-none' : ''}">
+        {yScreen > 0 && scrollActive ? ' transition-all duration-150 drop-shadow-md pt-1 sticky top-0' : ''} 
+        {yScreen <= 50 && scrollActive ? ' drop-shadow-none' : ''}">
         <div class="max-w-5xl w-full mx-auto">
             <div class="mx-auto flex flex-col">
                 <div class="flex justify-between items-center">

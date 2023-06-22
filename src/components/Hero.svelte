@@ -51,7 +51,7 @@
                     <ButtonLink
                         href="#howwedoit"
                         type="submit"
-                        class="relative inline-flex items-center h-16 px-4 ml-8 font-normal text-2xl tracking-normal text-yellow-600 transition duration-200  hover:text-yellow-500 dark:text-slate-100 focus:shadow-outline focus:outline-none 
+                        class="relative inline-flex items-center h-16 px-4 ml-8 font-normal text-2xl tracking-normal text-yellow-900 transition duration-200  hover:text-yellow-500 dark:text-slate-100 focus:shadow-outline focus:outline-none 
                         mr-5">
                         <span class="text-xl">{$t('hero.button-action')}</span>
                     </ButtonLink>
